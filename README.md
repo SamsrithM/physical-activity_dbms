@@ -130,4 +130,3 @@ create index if not exists idx_days_fk on Days using btree (StrategyId);
 ```
 =======
 # physical-activity_dbms
->>>>>>> 124b5219d549b034ee308d6ade1f897cc715a02b
