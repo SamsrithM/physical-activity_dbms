@@ -128,5 +128,4 @@ create index if not exists idx_foods_carbs on Foods using btree (Carbs);
 -- To speed up joining with Strategies, optimize the queries "Strategy with the most workouts" and "Strategy with the most days".
 create index if not exists idx_days_fk on Days using btree (StrategyId);
 ```
-=======
 # physical-activity_dbms
